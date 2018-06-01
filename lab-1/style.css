@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+}
+.top_cl{
+    background-color: black;
+    min-height: 200px;
+}
+
+.banner_cl {
+    background: url("image/banner2.jpg") no-repeat;
+    background-size: cover;
+    height: 200px;
+    padding: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 690px;
+}
+
+.avatar_cl {
+    position: absolute;
+    left: 30%;
+    margin: 0px;
+    top: 50px;
+    min-height: 198px;
+    min-width: 200px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+.avat_img {
+    width : 100%;
+}
+.mainblock_cl{
+    background-color:#c0c0c0;
+}
+.header_cl{
+    background-color:whitesmoke;;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 690px;
+    text-align: right;
+    font-size: 18pt;
+    font-family: Arial;
+    color: rgb(68,68,68);
+    box-sizing: border-box;
+    padding-right: 120px;
+    padding-top: 7px;
+}
+
+.content_cl{
+    background-color: #c0c0c0;
+    min-height: 700px;
+    padding: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 690px;
+    box-sizing: border-box;
+}
+.intent{
+    background-color: whitesmoke;;
+    margin-top: 10px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+    min-height: 730px;
+    box-shadow: #a8a8a8;
+}
+
+
+.photo {
+    padding-left: 25px;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+min-width: 670px;
+
+}
+.description{
+    margin-left: 25px;
+    margin-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-family: Tahoma;
+    font-style: initial;
+}
+.pict{
+    width: 20px;
+}
+.tags{
+    margin-left: 25px;
+    margin-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    color: darkblue;
+    font-size: 16px;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+.button {
+
+    width: 690px;
+
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(68,68,68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 1.2em;
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+
+}
+
+.footer_cl{
+    background-color: #a8a8a8;
+    min-height: 50px;
+    margin: 0px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: rgb(68,68,68);
+    text-align: right;
+    padding-top: 18px;
+    padding-right: 55px;
+    box-sizing: border-box;
+}
