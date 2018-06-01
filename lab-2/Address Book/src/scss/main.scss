@@ -1,0 +1,26 @@
+// Импортируем внешние библиотеки
+@import '~reboot.css'; // ~ для импорта npm пакетов, для css нужно указывать расширение
+
+// Подключаем свои
+@import
+    '_mixins',
+    'components/_list',
+    'components/_inf'
+    ;
+
+.mainblock{
+    @include  alignCenter(880px);
+    height: 817px;
+    padding: 5px 15px 5px 15px;
+    background-color: beige
+   }
+.title{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    @include background();
+    @include alignCenter(850px);
+    @include textStyle(18pt);
+}

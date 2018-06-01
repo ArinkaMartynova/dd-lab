@@ -1,0 +1,12 @@
+@import
+    '_mixins';
+
+.list {
+    @include background();
+    height: 720px;
+    overflow: auto;
+    width: 400px;
+    padding-left: 15px; 
+    float: left;
+    @include textStyle(16pt);
+}
